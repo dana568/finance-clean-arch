@@ -34,4 +34,9 @@ class TransactionItem {
       date: DateTime.parse(json['date'] as String),
     );
   }
+
+String get formattedAmount {
+    final sign = isExpense ? '-' : '+';
+    return '$sign${amount.toStringAsFixed(2)} UAH';
+  }
 }
