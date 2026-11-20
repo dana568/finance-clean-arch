@@ -1,0 +1,5 @@
+{
+  "appName": "Finance Manager",
+  "storageFile": "transactions.json",
+  "currency": "UAH"
+}
